@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Website mô phỏng âm thanh sát hạch thi bằng lái xe có chấm điểm thực tế">
+        content="Website mô phỏng thi bằng lái xe ô tô - Luyện tập với các câu hỏi hình ảnh có âm thanh">
     <title>Mô Phỏng Âm Thanh Sát Hạch Thi Bằng Lái Xe</title>
     <link rel="icon" type="image/png" href="LOGO.png">
     <link rel="stylesheet" href="styles.css">
@@ -35,12 +35,24 @@
                         <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
                     </svg>
                 </div>
-                <span class="logo-text">Thi Bằng Lái Xe</span>
+                <span class="logo-text">Mô Phỏng Âm Thanh Sát Hạch</span>
             </div>
             <nav class="nav">
                 <a href="index.html" class="nav-link active">Trang Chủ</a>
-                <a href="#" class="nav-link">Hướng Dẫn</a>
-                <a href="#" class="nav-link">Liên Hệ</a>
+                <button class="theme-toggle" id="themeToggle" title="Chuyển đổi Sáng/Tối">
+                    <!-- Moon Icon (shown in dark mode) -->
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <!-- Sun Icon (shown in light mode) -->
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="5" stroke="currentColor" stroke-width="2" />
+                        <path
+                            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
             </nav>
         </div>
     </header>
@@ -97,29 +109,37 @@
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11 5L6 9H2V15H6L11 19V5Z" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
                             <path
-                                d="M19 11H5M19 11C20.1046 11 21 11.8954 21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V13C3 11.8954 3.89543 11 5 11M19 11V9C19 7.89543 18.1046 7 17 7M5 11V9C5 7.89543 5.89543 7 7 7M7 7V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V7M7 7H17"
+                                d="M15.54 8.46C16.4774 9.39764 17.0039 10.6692 17.0039 11.995C17.0039 13.3208 16.4774 14.5924 15.54 15.53"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M19.07 4.93C20.9447 6.80528 21.9979 9.34836 21.9979 12C21.9979 14.6516 20.9447 17.1947 19.07 19.07"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="feature-title">Hình Ảnh Thực Tế</h3>
+                    <h3 class="feature-title">Mô Phỏng Âm Thanh</h3>
                     <p class="feature-description">
-                        Câu hỏi tình huống với hình ảnh giao thông chân thực, giúp bạn làm quen với môi trường thi thật.
+                        Âm thanh thông báo giống hệt phòng thi thật, giúp bạn làm quen với môi trường thi sa hình thực
+                        tế.
                     </p>
                 </div>
 
                 <div class="feature-card">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M15.536 11.293L9.879 8.464C9.487 8.268 9 8.547 9 8.964V14.622C9 15.039 9.487 15.318 9.879 15.122L15.536 12.293C15.9279 12.097 15.9279 11.489 15.536 11.293Z"
-                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <circle cx="8" cy="6" r="2" fill="currentColor" />
+                            <circle cx="8" cy="12" r="2" fill="currentColor" />
+                            <circle cx="8" cy="18" r="2" fill="currentColor" />
                         </svg>
                     </div>
-                    <h3 class="feature-title">Âm Thanh Hỗ Trợ</h3>
+                    <h3 class="feature-title">14 Bài Thi Đầy Đủ</h3>
                     <p class="feature-description">
-                        Mỗi câu hỏi đều có âm thanh đọc đề bài, giúp bạn tập trung và hiểu rõ yêu cầu.
+                        Đầy đủ 14 bài thi sa hình theo quy định: Xuất phát, Nhường đường, Dốc cầu, Ngã tư, Ghép xe và
+                        nhiều hơn nữa.
                     </p>
                 </div>
 
@@ -133,11 +153,11 @@
                     </div>
                     <h3 class="feature-title">Chấm Điểm Tự Động</h3>
                     <p class="feature-description">
-                        Hệ thống tự động chấm điểm và thông báo kết quả ngay lập tức sau khi hoàn thành bài thi.
+                        Hệ thống tự động trừ điểm theo đúng quy định khi có lỗi, hiển thị điểm số realtime.
                     </p>
                 </div>
 
-                <div class="feature-card coming-soon">
+                <div class="feature-card">
                     <div class="feature-icon">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -145,11 +165,10 @@
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
-                    <h3 class="feature-title">Thi Sa Hình (Sắp Ra Mắt)</h3>
+                    <h3 class="feature-title">Đếm Thời Gian Chính Xác</h3>
                     <p class="feature-description">
-                        Phần thi sa hình đang được phát triển, sẽ sớm có mặt để phục vụ bạn.
+                        Đếm thời gian tổng và thời gian từng bài, tự động phạt khi quá thời gian quy định.
                     </p>
-                    <span class="coming-soon-badge">Sắp ra mắt</span>
                 </div>
             </div>
         </div>
@@ -197,37 +216,33 @@
                                 <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" />
                             </svg>
                         </div>
-                        <span class="logo-text">Thi Bằng Lái Xe</span>
+                        <span class="logo-text">Mô Phỏng Âm Thanh Sát Hạch</span>
                     </div>
                     <p class="footer-description">
-                        Nền tảng luyện thi bằng lái xe ô tô trực tuyến hiện đại và hiệu quả nhất.
+                        Nền tảng làm quen với âm thanh thực tế khi thi sát hạch lái xe chân thật nhất
                     </p>
                 </div>
                 <div class="footer-section">
                     <h4 class="footer-title">Liên Kết</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Trang Chủ</a></li>
-                        <li><a href="#">Thi Trong Hình</a></li>
-                        <li><a href="#">Thi Sa Hình</a></li>
-                        <li><a href="#">Hướng Dẫn</a></li>
+                        <li><a href="index.html">Trang Chủ</a></li>
+                        <li><a href="thi-sa-hinh.html">Thi Sa Hình</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4 class="footer-title">Hỗ Trợ</h4>
+                    <h4 class="footer-title">Thông Tin</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Câu Hỏi Thường Gặp</a></li>
-                        <li><a href="#">Liên Hệ</a></li>
-                        <li><a href="#">Điều Khoản Sử Dụng</a></li>
-                        <li><a href="#">Chính Sách Bảo Mật</a></li>
+                        <li><a href="#">Liên hệ Zalo: 0907.251.937</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Thi Bằng Lái Xe. Được phát triển với ❤️ tại Việt Nam.</p>
+                <p>&copy; Website mô phỏng âm thanh sát hạch thi bằng lái xe. Được phát triển tại Việt Nam.</p>
             </div>
         </div>
     </footer>
 
+    <script src="theme-toggle.js"></script>
     <script src="auth.js"></script>
     <script src="auth-ui.js"></script>
     <script src="script.js"></script>
